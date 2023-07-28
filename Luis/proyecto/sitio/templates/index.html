@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Pagina Web</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,11 +41,25 @@
         </div>
       </nav>
     <h1>Bienvenido al sitio web de información</h1>
-    <p>Esta es la página de inicio.</p>
-    <p>Explora las otras secciones:</p>
-    <ul>
+   <p>De los 11 pandas hasta ahora liberados permanentemente por los dos centros, tres han muerto y una cuarta, Qian Qian, se enfermó y habría perecido si no hubiera sido rescatada; su historia es el foco de una reciente película de IMAX, “Pandas”.
+
+    “En algunos lugares, la población silvestre es menor a 30 ejemplares, en algunos menos de 20”, detalló Zhang Hemin, subdirector del Centro de Investigación y Conservación de China para el Panda Gigante, que dirige la base Hetaoping, así como otra instalación en Dujiangyan. “Si no les ayudamos, se extinguirán en los próximos 30 a 50 años. Es por eso que estamos entrenando a los pandas criados en cautiverio, para su liberación”.</p>
+
+    <section id="suscribirse">
+      <h2>Suscribirse</h2>
+      <p>Ingresa tu correo electrónico para recibir actualizaciones sobre nuevos destinos y ofertas especiales.</p>
+      <form id="formulario">
+          <input type="email" name="email" placeholder="Tu correo electrónico" required>
+          <button type="submit">Suscribirse</button>
+      </form>
+  </section>
+    
+    <footer>
+      <p>&copy; 2023. Todos los derechos reservados.</p>
+      <ul>
         <li><a href="{% url 'acerca_de' %}">Acerca de</a></li>
         <li><a href="{% url 'contacto' %}">Contacto</a></li>
     </ul>
+    </footer>
 </body>
 </html>
